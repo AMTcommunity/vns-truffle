@@ -76,13 +76,6 @@ $ vns-truffle init
 $ npm init
 $ npm i vns-web3@0.20.6 --save
 $ touch contracts/MetaCoin.sol
-$ vns-truffle compile
-```
-```text
-Compiling ./contracts/Metacoin.sol...
-Compiling ./contracts/Migrations.sol...
-Writing artifacts to ./build/contracts
-
 ```
  we use MetaCoin.sol
 ```solidity
@@ -118,6 +111,15 @@ contract MetaCoin {
 
 ```
 ```shell script
+$ vns-truffle compile
+```
+```text
+Compiling ./contracts/Metacoin.sol...
+Compiling ./contracts/Migrations.sol...
+Writing artifacts to ./build/contracts
+
+```
+```shell script
 $ vns-truffle deploy --network vnsnet
 ```
 ```text
@@ -138,7 +140,7 @@ Saving artifacts...
 ```shell script
 $ vns-truffle console --network vnsnet
 > var instance=MetaCoin.at('your_MetaCoin_contract_address')
-> let balance=web3.toNumber(instance.getBalance(web3.vns.accounts[0]))
+> instance.getBalance(web3.vns.accounts[0])
 ```
 ```text
 BigNumber { s: 1, e: 4, c: [ 10000 ] }
