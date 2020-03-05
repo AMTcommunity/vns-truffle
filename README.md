@@ -147,7 +147,7 @@ BigNumber { s: 1, e: 4, c: [ 10000 ] }
 ```
 ```shell script
 > var accounts=web3.vns.accounts
-> instance.sendCoin(addrs[2],100,{from:accounts[0]})
+> instance.sendCoin(accounts[2],100,{from:accounts[0]})
 ```
 ```text
 { tx:
