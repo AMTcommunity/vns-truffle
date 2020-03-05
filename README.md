@@ -25,7 +25,7 @@ Truffle is a development environment, testing framework and asset pipeline for V
 ### Install
 
 ```
-$ npm install -g vns-truffle@4.1.15
+$ npm install -g vns-truffle@4.1.16
 ```
 
 ### Quick Usage
@@ -79,7 +79,7 @@ $ touch contracts/MetaCoin.sol
 ```
  we use MetaCoin.sol
 ```solidity
-//MetaCoin contract code
+//MetaCoin contract 
 pragma solidity >=0.4.21 <0.7.0;
 
 // This is just a simple example of a coin-like contract.
