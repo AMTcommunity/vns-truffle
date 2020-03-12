@@ -7,8 +7,7 @@
 
 -----------------------
 
-
-Truffle is a development environment, testing framework and asset pipeline for Vnscoin, aiming to make life as an Vnscoin developer easier. With Truffle, you get:
+The vns-truffle is derived from the truffle. The vns-truffle is a development environment, testing framework and asset pipeline for Vnscoin, aiming to make life as an Vnscoin developer easier. With Vns-truffle, you get:
 
 * Built-in smart contract compilation, linking, deployment and binary management.
 * Automated contract testing with Mocha and Chai.
@@ -17,7 +16,7 @@ Truffle is a development environment, testing framework and asset pipeline for V
 * Network management for deploying to many public & private networks.
 * Interactive console for direct contract communication.
 * Instant rebuilding of assets during development.
-* External script runner that executes scripts within a Truffle environment.
+* External script runner that executes scripts within a Vns-truffle environment.
 
 | ℹ️ **Contributors**: Please see the [Development](#development) section of this README. |
 | --- |
