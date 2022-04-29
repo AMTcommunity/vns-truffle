@@ -32,7 +32,7 @@
     "vns-web3": "0.20.6"
   },
   "devDependencies": {
-    "async": "2.6.1",
+    "async": "2.6.4",
     "browserify": "^14.0.0",
     "chai": "4.1.2",
     "debug": "^3.1.0",

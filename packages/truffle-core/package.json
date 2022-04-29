@@ -4,7 +4,7 @@
   "version": "4.1.15",
   "description": "Core code for Truffle command line tool",
   "dependencies": {
-    "async": "2.6.1",
+    "async": "2.6.4",
     "chai": "4.1.2",
     "chokidar": "^1.4.2",
     "colors": "^1.1.2",
