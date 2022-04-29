@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/trufflesuite/truffle-resolver#readme",
   "dependencies": {
-    "async": "2.6.1",
+    "async": "2.6.4",
     "truffle-contract": "^3.0.7",
     "truffle-expect": "^0.0.4",
     "truffle-provisioner": "^0.1.1"
